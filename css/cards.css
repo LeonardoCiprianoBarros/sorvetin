@@ -1,0 +1,44 @@
+.cards-box{
+    display: flex;
+    margin-left: 7.7%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    width: 87%;
+}
+
+.card{
+    display: flex;
+}
+
+.card img{
+    max-width: 150px;
+    height: 100%;
+}
+
+.card-texts{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-texts h1{
+    color:  rgb(150, 150, 150);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-texts h2{
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+    cursor: pointer;
+}
+
+.card-texts h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.card-texts p{
+    color: rgb(150, 150, 150);
+}
+
